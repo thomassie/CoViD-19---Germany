@@ -53,8 +53,9 @@ Aktuell sieht dieser so aus:
   > Natürlich kann eine .csv- oder .xlsx-Datei eingebettet werden. Allerdings muss die Datei manuell gepflegt und aktualisiert werden. Wer ist dazu in der Lage? Was bedeutet "surveygesteuert"?
 - **Dashboard und Speicherort**: Wer aktualisiert das Dashbaord? Wer kümmert sich um einen Speicherort (Repository) von welchem aus alle zugegreifen können?
 - **AJAX**: Kann Tableau AJAX? Vor einigen Jahren waren AJAX Lösungen mal ganz hip. Da konnte man sich als User - ganz individuell - seine favorosierten Seiteninhalte selbst zusammenklicken und positionieren.
-  > Keine Ahnung. Aber Tableau funktioniert nicht so, dass man sich als Nutzer die Anordnung aussuchen kann. Ich hatte zunindest noch kein deratiges Dashboard gesehen. Zielgruppen müssen vorab definiert werden um ein effektives Dashboard zu erstellen. Ansonsten wird schlicht keine zufriedenstellende Wirking erzielt.
-
+  > *TMM*: Keine Ahnung. Aber Tableau funktioniert nicht so, dass man sich als Nutzer die Anordnung aussuchen kann. Ich hatte zunindest noch kein deratiges Dashboard gesehen. Zielgruppen müssen vorab definiert werden um ein effektives Dashboard zu erstellen. Ansonsten wird schlicht keine zufriedenstellende Wirking erzielt.
+- **Akordeon-Effekte**: Kann Tableau Akkordeon? Ich hab mal eine typo3 extension mit einer Akordeonfunktion in Betrieb genommen. Hier konnte man sich thematische Absätze über ein plus- bzw. minusicon ein- bzw. ausblenden.
+  > *TMM*: Nee. Aber man kann bestimmt Inhalte natürlich ein- bzw- ausblenden (Filter, Parameter).
  
 ### Aufgaben
  
