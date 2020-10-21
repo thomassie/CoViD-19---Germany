@@ -28,7 +28,15 @@ Aktuell sieht dieser so aus:
 ![Prototyp](https://github.com/thomassie/CoViD-19---Germany/blob/main/04---Screenshots/Bildschirmfoto%202020-10-21%20um%2000.05.37.png)
 
 ### Offene fragen
- 
+
+**Grundsätzliche Fragen**:
+
+- **Ziel**: Welchen Zweck soll das Dashboard erfüllen? Wer ist die Zielgruppe?
+- **Rechte**: Wer hält die Rechte am Dashboard?
+- **Aufwandsentschädigung**: Wie sollen die Beteiligten für ihre Arbeit am Dashboard entschädigt werden?
+
+**Allgemeine Fragen**:
+
 - **Daten**:
   - Welche Daten wollen wir nutzen und warum? 
     > *TMM*: Ich bin stark dafür nur Daten abzurufen, welche über eine API abrufbar sind und einen gewissen Mindeststandard aufweisen (z.B. identische Landkreisnamen).
@@ -41,6 +49,12 @@ Aktuell sieht dieser so aus:
   > *TMM*: Logo! Es können diverse Anpassungen (Desktop, iPhone, iPad...) vorgenommen werden.
 - **Landing Page**: Mein Wunsch wäre, dass die von uns einzurichtende Subdomain (z.B. corona.landshut.de o.ä), welche die landingpage  darstellt (framelösung).
   > *TMM*: Um das zu verstehen: Das Tableau Dashboard soll in die Website eingebettet werden? Das geht und sollte von den ITlern vor Ort problemlos umgesetzt werden können.
+- **Input**: Können in tableau Daten surveygesteuert hochgeladen oder redaktionell (über ein backend) gepflegt werden?
+  > Natürlich kann eine .csv- oder .xlsx-Datei eingebettet werden. Allerdings muss die Datei manuell gepflegt und aktualisiert werden. Wer ist dazu in der Lage? Was bedeutet "surveygesteuert"?
+- **Dashboard und Speicherort**: Wer aktualisiert das Dashbaord? Wer kümmert sich um einen Speicherort (Repository) von welchem aus alle zugegreifen können?
+- **AJAX**: Kann Tableau AJAX? Vor einigen Jahren waren AJAX Lösungen mal ganz hip. Da konnte man sich als User - ganz individuell - seine favorosierten Seiteninhalte selbst zusammenklicken und positionieren.
+  > Keine Ahnung. Aber Tableau funktioniert nicht so, dass man sich als Nutzer die Anordnung aussuchen kann. Ich hatte zunindest noch kein deratiges Dashboard gesehen. Zielgruppen müssen vorab definiert werden um ein effektives Dashboard zu erstellen. Ansonsten wird schlicht keine zufriedenstellende Wirking erzielt.
+
  
 ### Aufgaben
  
@@ -50,3 +64,7 @@ Aktuell sieht dieser so aus:
 - [ ] Ampelfunktion anpassen: Eine Ampel besteht mind. 1 Woche bevor sie wieder heruntergesetzt werden kann. 
   > *TMM*: Höherstufen passiert sofort? Wäre ja logisch. Allerdings werden die Maßnahmen nicht automatisiert angeordnet, oder (s.o.)?
 - [ ] Rechtschreibung und Termini überprüfen/korrigieren
+
+### Time tracking
+
+- Thomas Massie: 26 Stunden (Stand 21.10.2020, 21 Uhr)
