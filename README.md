@@ -32,6 +32,7 @@ Aktuell sieht dieser so aus:
 **Grundsätzliche Fragen**:
 
 - **Ziel**: Welchen Zweck soll das Dashboard erfüllen? Wer ist die Zielgruppe?
+- **Inhalte**: Welche Inhalte sollen wie vermittelt werden? Was ist das Hauptmedium? Soll Tableau in eine HTML5-Seite eingebettet werden?
 - **Rechte**: Wer hält die Rechte am Dashboard?
 - **Aufwandsentschädigung**: Wie sollen die Beteiligten für ihre Arbeit am Dashboard entschädigt werden?
 
