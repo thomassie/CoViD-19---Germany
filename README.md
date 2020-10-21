@@ -25,7 +25,7 @@ Ein Dashboard
 Der Prototyp befindet sich auf Tableau Public und kann [hier](https://public.tableau.com/profile/thomas.massie#!/vizhome/CoViD-19---Bayern-Prototype01---Test/Dashboard) aufgerufen werden.
 
 Aktuell sieht dieser so aus:
-![Alt-Text](/Pfad/zum/Bild.jpg "optionaler Titel")
+![Prototyp](https://github.com/thomassie/CoViD-19---Germany/blob/main/04---Screenshots/Bildschirmfoto%202020-10-21%20um%2000.05.37.png)
 
 ### Offene fragen
  
@@ -38,7 +38,7 @@ Aktuell sieht dieser so aus:
 - **Aufteilung**: Kann eine Tableau-Landing Page im oberen Teil ein dashboard und im unteren Teil redaktionellen Text beinhalten (vgl. Link München)?
   > *TMM*: Klar! Die Seite kann einrichtet werden wie man möchte. Oder eben verschiedene Seiten...
 - **Ansichten**: Kann Tableau responsive design?
-  > *TMM*: Logo! Es können diverse Anpassungen (Desktop, iPhone, iPad...) vorgenommen werden.$
+  > *TMM*: Logo! Es können diverse Anpassungen (Desktop, iPhone, iPad...) vorgenommen werden.
 - **Landing Page**: Mein Wunsch wäre, dass die von uns einzurichtende Subdomain (z.B. corona.landshut.de o.ä), welche die landingpage  darstellt (framelösung).
   > *TMM*: Um das zu verstehen: Das Tableau Dashboard soll in die Website eingebettet werden? Das geht und sollte von den ITlern vor Ort problemlos umgesetzt werden können.
  
