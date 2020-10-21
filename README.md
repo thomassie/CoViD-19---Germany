@@ -55,7 +55,7 @@ Aktuell sieht dieser so aus:
 - **AJAX**: Kann Tableau AJAX? Vor einigen Jahren waren AJAX Lösungen mal ganz hip. Da konnte man sich als User - ganz individuell - seine favorosierten Seiteninhalte selbst zusammenklicken und positionieren.
   > *TMM*: Keine Ahnung. Aber Tableau funktioniert nicht so, dass man sich als Nutzer die Anordnung aussuchen kann. Ich hatte zunindest noch kein deratiges Dashboard gesehen. Zielgruppen müssen vorab definiert werden um ein effektives Dashboard zu erstellen. Ansonsten wird schlicht keine zufriedenstellende Wirking erzielt.
 - **Akordeon-Effekte**: Kann Tableau Akkordeon? Ich hab mal eine typo3 extension mit einer Akordeonfunktion in Betrieb genommen. Hier konnte man sich thematische Absätze über ein plus- bzw. minusicon ein- bzw. ausblenden.
-  > *TMM*: Nee. Aber man kann bestimmt Inhalte natürlich ein- bzw- ausblenden (Filter, Parameter).
+  > *TMM*: Nee. Aber man kann bestimmt Inhalte natürlich ein- bzw- ausblenden (Filter, Parameter). Das geht auch in Tabellen. Aber halt nicht mit einem Akkordeon-Effekt.
  
 ### Aufgaben
  
