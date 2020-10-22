@@ -1,6 +1,6 @@
-# CoViD-19---Germany
+# CoViD-19 Dashboard für Deutschland & Bayern
 
-Ein Dashboard 
+
 
 ## Allgemeine Version
 
