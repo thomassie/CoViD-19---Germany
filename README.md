@@ -35,7 +35,8 @@ Die Daten sollen möglichst aus einer Quelle bzw. von einem Anbieter stammen, un
 Der Prototyp befindet sich auf Tableau Public und kann [hier](https://public.tableau.com/profile/thomas.massie#!/vizhome/CoViD-19---Bayern-Prototype01---Test/Dashboard) aufgerufen werden.
 
 Aktuell sieht dieser so aus:
-![Prototyp](https://github.com/thomassie/CoViD-19---Germany/blob/main/04---Screenshots/Bildschirmfoto%202020-10-21%20um%2000.05.37.png)
+![Prototyp](https://github.com/thomassie/CoViD-19---Germany/blob/main/04---Screenshots/Bildschirmfoto%202020-10-22%20um%2016.59.32.png)
+![Prototyp](https://github.com/thomassie/CoViD-19---Germany/blob/main/04---Screenshots/Bildschirmfoto%202020-10-22%20um%2016.59.52.png)
 
 ### OFFENE FRAGEN
 
