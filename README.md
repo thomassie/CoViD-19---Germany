@@ -61,7 +61,7 @@ Aktuell sieht dieser so aus:
 - **Landing Page**: Mein Wunsch wäre, dass die von uns einzurichtende Subdomain (z.B. corona.landshut.de o.ä), welche die landingpage  darstellt (framelösung).
   > *TMM*: Um das zu verstehen: Das Tableau Dashboard soll in die Website eingebettet werden? Das geht und sollte von den ITlern vor Ort problemlos umgesetzt werden können.
 - **Input**: Können in tableau Daten surveygesteuert hochgeladen oder redaktionell (über ein backend) gepflegt werden?
-  > Natürlich kann eine .csv- oder .xlsx-Datei eingebettet werden. Allerdings muss die Datei manuell gepflegt und aktualisiert werden. Wer ist dazu in der Lage? Was bedeutet "surveygesteuert"?
+  > *TMM*: Natürlich kann eine .csv- oder .xlsx-Datei eingebettet werden. Allerdings muss die Datei manuell gepflegt und aktualisiert werden. Wer ist dazu in der Lage? Was bedeutet "surveygesteuert"?
 - **Dashboard und Speicherort**: Wer aktualisiert das Dashbaord? Wer kümmert sich um einen Speicherort (Repository) von welchem aus alle zugegreifen können?
 - **AJAX**: Kann Tableau AJAX? Vor einigen Jahren waren AJAX Lösungen mal ganz hip. Da konnte man sich als User - ganz individuell - seine favorosierten Seiteninhalte selbst zusammenklicken und positionieren.
   > *TMM*: Keine Ahnung. Aber Tableau funktioniert nicht so, dass man sich als Nutzer die Anordnung aussuchen kann. Ich hatte zunindest noch kein deratiges Dashboard gesehen. Zielgruppen müssen vorab definiert werden um ein effektives Dashboard zu erstellen. Ansonsten wird schlicht keine zufriedenstellende Wirking erzielt.
@@ -76,6 +76,7 @@ Aktuell sieht dieser so aus:
 - [ ] Ampelfunktion anpassen: Eine Ampel besteht mind. 1 Woche bevor sie wieder heruntergesetzt werden kann. 
   > *TMM*: Höherstufen passiert sofort? Wäre ja logisch. Allerdings werden die Maßnahmen nicht automatisiert angeordnet, oder (s.o.)?
 - [ ] Rechtschreibung und Termini überprüfen/korrigieren
+- [x] Demografische Verteilungen der Fälle filtern (über *Dashboard Actions* auf *Worksheet* im *Viz in Tooltip*).
 
 ### ZEITERFASSUNG
 
