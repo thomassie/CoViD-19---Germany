@@ -9,9 +9,9 @@
 
 ### TEAM
 
-- [Thomas Rogler](https://www.linkedin.com/in/tom-rogler-6405bbb1/), Initiator
+- [Thomas Rogler](https://www.linkedin.com/in/tom-rogler-6405bbb1/), Initiator, Landkreis-Experte
 - [Thomas Massie](https://www.linkedin.com/in/thomasmmassie/), Backend & Frontend Development
-- [Thomas Hofmann](https://www.linkedin.com/in/thomas-hofmann-a2817646/), Experte
+- [Thomas Hofmann](https://www.linkedin.com/in/thomas-hofmann-a2817646/), WHO, Experte
 
 ### ZIELSETZUNG
 
