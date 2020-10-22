@@ -7,20 +7,30 @@ Ein Dashboard
 
 ## Freistaat Bayern mit Focus Landshut
 
-### Team
+### TEAM
 
 - [Thomas Rogler](https://www.linkedin.com/in/tom-rogler-6405bbb1/)
 - [Thomas Massie](https://www.linkedin.com/in/thomasmmassie/)
 - [Thomas Hofmann](https://www.linkedin.com/in/thomas-hofmann-a2817646/)
 
-### Eigenschaften
+### ZIELSETZUNG
 
-- Schneller Überblick über die wichtigsten Kennzahlen für Bayern und Landshut.
-- Leicht verständlich (selbsterklärend).
+- Erstellung eines CoViD-19 Dashboards mit den wichtigsten Kennzahlen für Bayern und Landshut.
+- Schneller Überblick und leicht verständlich (selbsterklärend).
 - BetrachterIn bekommt ein Gefühl für die Dynamik der Pandemie.
 - Vergleiche mit anderen Stadt-/Landkreisen sind möglich; dadurch kann die eigene Lage eingeordnet werden.
 
-### Prototyp
+### DATEN
+
+Die Daten sollen möglichst aus einer Quelle bzw. von einem Anbieter stammen, und über eine API abgerufen werden können. Dies garantiert aktuelle Daten und einen einheitlichen Standard. Deshalb beziehen wir alle Daten vom [NPGEO Corona Hub 2020](https://npgeo-corona-npgeo-de.hub.arcgis.com/), welche über die Acrgis REST API bezogen werden.
+
+#### Datenquellen
+
+- **aktuelle Zahlen** (neuester Stand): 
+- **Zeitreihen**:
+- **Intensivbettenbelegung**:
+
+### PROTOTYP
 
 Der Prototyp befindet sich auf Tableau Public und kann [hier](https://public.tableau.com/profile/thomas.massie#!/vizhome/CoViD-19---Bayern-Prototype01---Test/Dashboard) aufgerufen werden.
 
