@@ -9,9 +9,9 @@ Ein Dashboard
 
 ### TEAM
 
-- [Thomas Rogler](https://www.linkedin.com/in/tom-rogler-6405bbb1/)
-- [Thomas Massie](https://www.linkedin.com/in/thomasmmassie/)
-- [Thomas Hofmann](https://www.linkedin.com/in/thomas-hofmann-a2817646/)
+- [Thomas Rogler](https://www.linkedin.com/in/tom-rogler-6405bbb1/), Initiator
+- [Thomas Massie](https://www.linkedin.com/in/thomasmmassie/), Backend & Frontend Development
+- [Thomas Hofmann](https://www.linkedin.com/in/thomas-hofmann-a2817646/), Experte
 
 ### ZIELSETZUNG
 
@@ -26,9 +26,9 @@ Die Daten sollen möglichst aus einer Quelle bzw. von einem Anbieter stammen, un
 
 #### Datenquellen
 
-- **aktuelle Zahlen** (neuester Stand): 
-- **Zeitreihen**:
-- **Intensivbettenbelegung**:
+- **aktuelle Zahlen** (neuester Stand): [RKI Corona Landkreise](https://npgeo-corona-npgeo-de.hub.arcgis.com/datasets/917fc37a709542548cc3be077a786c17_0/geoservice) mit folgender Abfrage URL: https://services7.arcgis.com/mOBPykOjAyBO2ZKk/arcgis/rest/services/RKI_Landkreisdaten/FeatureServer/0/query?where=1%3D1&outFields=*&outSR=4326&f=json
+- **Zeitreihen**: [RKI COVID19](https://npgeo-corona-npgeo-de.hub.arcgis.com/datasets/dd4580c810204019a7b8eb3e0b329dd6_0/geoservice) mit folgender Abfrage URL: https://services7.arcgis.com/mOBPykOjAyBO2ZKk/arcgis/rest/services/RKI_COVID19/FeatureServer/0/query?where=1%3D1&outFields=*&outSR=4326&f=json
+- **Intensivbettenbelegung**: [DIVI-Intensivregister auf Landkreisebene](https://npgeo-corona-npgeo-de.hub.arcgis.com/datasets/8fc79b6cf7054b1b80385bda619f39b8_0/geoservice) mit folgender Abfrage URL: https://services7.arcgis.com/mOBPykOjAyBO2ZKk/arcgis/rest/services/DIVI_Intensivregister_Landkreise/FeatureServer/0/query?where=1%3D1&outFields=*&outSR=4326&f=json
 
 ### PROTOTYP
 
