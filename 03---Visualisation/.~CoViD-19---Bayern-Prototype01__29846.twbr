@@ -2074,18 +2074,18 @@
       <column-instance column='[Calculation_759419524416110592]' derivation='User' name='[usr:Calculation_759419524416110592:nk]' pivot='key' type='nominal' />
       <column-instance column='[Calculation_759419524420964353]' derivation='User' name='[usr:Calculation_759419524420964353:nk:2]' pivot='key' type='nominal'>
         <table-calc ordering-field='' ordering-type='Field' />
-        <table-calc field='[federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[FARBE_Grenzwerte (copy)_165296216352751628]' ordering-type='Rows' />
         <table-calc field='[federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[Calculation_165296216337489923]' ordering-field='' ordering-type='Field' />
+        <table-calc field='[federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[FARBE_Grenzwerte (copy)_165296216352751628]' ordering-type='Rows' />
       </column-instance>
       <column-instance column='[Calculation_759419524420964353]' derivation='User' name='[usr:Calculation_759419524420964353:nk:4]' pivot='key' type='nominal'>
         <table-calc ordering-type='Columns' />
-        <table-calc field='[federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[FARBE_Grenzwerte (copy)_165296216352751628]' ordering-type='Rows' />
         <table-calc field='[federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[Calculation_165296216337489923]' ordering-type='Rows' />
+        <table-calc field='[federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[FARBE_Grenzwerte (copy)_165296216352751628]' ordering-type='Rows' />
       </column-instance>
       <column-instance column='[Calculation_759419524420964353]' derivation='User' name='[usr:Calculation_759419524420964353:nk:8]' pivot='key' type='nominal'>
         <table-calc ordering-type='Columns' />
-        <table-calc field='[federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[Calculation_165296216337489923]' ordering-type='Columns' />
         <table-calc field='[federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[FARBE_Grenzwerte (copy)_165296216352751628]' ordering-type='Rows' />
+        <table-calc field='[federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[Calculation_165296216337489923]' ordering-type='Columns' />
       </column-instance>
       <column-instance column='[FARBE_Grenzwerte (copy)_165296216352751628]' derivation='User' name='[usr:FARBE_Grenzwerte (copy)_165296216352751628:nk]' pivot='key' type='nominal'>
         <table-calc ordering-type='Rows' />
@@ -3378,7 +3378,7 @@
           </metadata-records>
         </connection>
       </extract>
-      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' _.fcp.SchemaViewerObjectModel.true...common-percentage='0.850254' _.fcp.SchemaViewerObjectModel.true...user-set-layout-v2='true' dim-ordering='alphabetic' measure-ordering='alphabetic' parameter-percentage='0.149746' show-aliased-fields='true' show-hidden-fields='true' show-structure='true' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' _.fcp.SchemaViewerObjectModel.true...common-percentage='0.849383' _.fcp.SchemaViewerObjectModel.true...user-set-layout-v2='true' dim-ordering='alphabetic' measure-ordering='alphabetic' parameter-percentage='0.150617' show-aliased-fields='true' show-hidden-fields='true' show-structure='true' />
       <style>
         <style-rule element='mark'>
           <encoding attr='color' field='[none:Calculation_165296216341897223:nk]' type='palette'>
@@ -3581,6 +3581,17 @@
               <bucket>&quot;unbekannt&quot;</bucket>
             </map>
           </encoding>
+          <encoding attr='color' field='[usr:Calculation_759419524416110592:nk]' type='palette'>
+            <map to='#89a565'>
+              <bucket>&quot;weniger als 35&quot;</bucket>
+            </map>
+            <map to='#c95853'>
+              <bucket>&quot;über 50&quot;</bucket>
+            </map>
+            <map to='#e3bb3f'>
+              <bucket>&quot;zwischen 35 und 50&quot;</bucket>
+            </map>
+          </encoding>
           <encoding attr='color' field='[usr:Calculation_759419524420964353:nk:2]' type='palette'>
             <map to='#052063'>
               <bucket>&quot;Auswahl&quot;</bucket>
@@ -3651,10 +3662,7 @@
               <bucket>&quot;20 und mehr&quot;</bucket>
             </map>
           </encoding>
-          <encoding attr='color' field='[usr:Calculation_759419524420964353:nk:4]' type='palette'>
-            <map to='#052063'>
-              <bucket>&quot;Auswahl&quot;</bucket>
-            </map>
+          <encoding attr='color' field='[usr:FARBE_variabel_Auswahl (copy)_759419524423766019:nk]' type='palette'>
             <map to='#89a565'>
               <bucket>&quot;weniger 35&quot;</bucket>
             </map>
@@ -3686,18 +3694,10 @@
               <bucket>&quot;20 und mehr&quot;</bucket>
             </map>
           </encoding>
-          <encoding attr='color' field='[usr:Calculation_759419524416110592:nk]' type='palette'>
-            <map to='#89a565'>
-              <bucket>&quot;weniger als 35&quot;</bucket>
+          <encoding attr='color' field='[usr:Calculation_759419524420964353:nk:4]' type='palette'>
+            <map to='#052063'>
+              <bucket>&quot;Auswahl&quot;</bucket>
             </map>
-            <map to='#c95853'>
-              <bucket>&quot;über 50&quot;</bucket>
-            </map>
-            <map to='#e3bb3f'>
-              <bucket>&quot;zwischen 35 und 50&quot;</bucket>
-            </map>
-          </encoding>
-          <encoding attr='color' field='[usr:FARBE_variabel_Auswahl (copy)_759419524423766019:nk]' type='palette'>
             <map to='#89a565'>
               <bucket>&quot;weniger 35&quot;</bucket>
             </map>
@@ -3882,6 +3882,14 @@
         <param name='target' value='Dashboard 2 (2)' />
       </command>
     </action>
+    <action caption='Filter1' name='[Action9]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Dashboard' type='sheet' worksheet='KREIS---7TageFälle-Bayern' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='DEMOGRAFIE---m/w_Alter_AnzahlFall' />
+      </command>
+    </action>
     <edit-parameter-action caption='Parameter1' name='[Action1]'>
       <activation type='on-select' />
       <source dashboard='Dashboard' type='sheet'>
@@ -3980,8 +3988,8 @@
             <column-instance column='[county]' derivation='None' name='[none:county:nk]' pivot='key' type='nominal' />
             <column-instance column='[Calculation_759419524420964353]' derivation='User' name='[usr:Calculation_759419524420964353:nk:8]' pivot='key' type='nominal'>
               <table-calc ordering-type='Columns' />
-              <table-calc field='[federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[Calculation_165296216337489923]' ordering-type='Columns' />
               <table-calc field='[federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[FARBE_Grenzwerte (copy)_165296216352751628]' ordering-type='Rows' />
+              <table-calc field='[federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[Calculation_165296216337489923]' ordering-type='Columns' />
             </column-instance>
           </datasource-dependencies>
           <filter class='categorical' column='[federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[Landkreis Set]' />
@@ -4129,6 +4137,9 @@
             <column caption='Anzahl Fall_Geschlecht' datatype='integer' name='[Calculation_1068127205803847681]' role='measure' type='quantitative'>
               <calculation class='tableau' formula='IIF(ATTR([Geschlecht]) == &quot;W&quot;, -SUM([AnzahlFall]), SUM([AnzahlFall]))' />
             </column>
+            <column caption='&quot;&quot;' datatype='string' name='[Calculation_2100225577756401666]' role='dimension' type='nominal' user:unnamed='DEMOGRAFIE---m/w_Alter_AnzahlFall'>
+              <calculation class='tableau' formula='&quot;&quot;' />
+            </column>
             <column datatype='string' name='[Geschlecht]' role='dimension' type='nominal'>
               <aliases>
                 <alias key='&quot;M&quot;' value='männlich' />
@@ -4153,34 +4164,51 @@
               </semantic-values>
             </column>
             <column-instance column='[Altersgruppe]' derivation='None' name='[none:Altersgruppe:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_2100225577756401666]' derivation='None' name='[none:Calculation_2100225577756401666:nk]' pivot='key' type='nominal' />
             <column-instance column='[Geschlecht]' derivation='None' name='[none:Geschlecht:nk]' pivot='key' type='nominal' />
+            <column-instance column='[county]' derivation='None' name='[none:county:nk]' pivot='key' type='nominal' />
             <column-instance column='[AnzahlFall]' derivation='Sum' name='[sum:AnzahlFall:qk]' pivot='key' type='quantitative' />
             <column-instance column='[Calculation_1068127205803847681]' derivation='User' name='[usr:Calculation_1068127205803847681:qk]' pivot='key' type='quantitative' />
           </datasource-dependencies>
-          <filter class='categorical' column='[federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[Tooltip (Bundesland)]' context='true'>
+          <filter class='categorical' column='[federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[Action (Bundesland,Landkreis)]' filter-group='5'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action6]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[BL]' />
+              <groupfilter function='level-members' level='[county]' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[Action (Landkreis)]' filter-group='4'>
+            <groupfilter function='level-members' level='[county]' user:ui-action-filter='[Action5]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[Tooltip (Bundesland)]'>
             <groupfilter function='level-members' level='[BL]' user:ui-action-filter='[Action - Sheet 17]' user:ui-enumeration='all' user:ui-marker='enumerate' />
           </filter>
-          <filter class='categorical' column='[federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[Tooltip (Bundesland,Landkreis)]' context='true'>
+          <filter class='categorical' column='[federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[Tooltip (Bundesland,Landkreis)]'>
             <groupfilter function='crossjoin' user:ui-action-filter='[Action - Sheet 17]' user:ui-enumeration='all' user:ui-marker='enumerate'>
               <groupfilter function='level-members' level='[BL]' />
               <groupfilter function='level-members' level='[county]' />
             </groupfilter>
           </filter>
-          <filter class='categorical' column='[federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[Tooltip (Landkreis)]' context='true'>
+          <filter class='categorical' column='[federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[Tooltip (Landkreis)]'>
             <groupfilter function='level-members' level='[county]' user:ui-action-filter='[Action - Sheet 17]' user:ui-enumeration='all' user:ui-marker='enumerate' />
           </filter>
-          <filter class='categorical' column='[federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[none:Geschlecht:nk]'>
+          <filter class='categorical' column='[federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[none:Geschlecht:nk]' context='true'>
             <groupfilter function='union' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
               <groupfilter function='member' level='[none:Geschlecht:nk]' member='&quot;M&quot;' />
               <groupfilter function='member' level='[none:Geschlecht:nk]' member='&quot;W&quot;' />
             </groupfilter>
           </filter>
           <natural-sort column='[federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[none:Geschlecht:nk]' direction='DESC' />
+          <filter class='categorical' column='[federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[none:county:nk]' filter-group='3'>
+            <groupfilter from='&quot;LK Aichach-Friedberg&quot;' function='range' level='[none:county:nk]' to='&quot;SK Würzburg&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
           <slices>
+            <column>[federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[none:Geschlecht:nk]</column>
             <column>[federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[Tooltip (Bundesland)]</column>
             <column>[federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[Tooltip (Bundesland,Landkreis)]</column>
             <column>[federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[Tooltip (Landkreis)]</column>
-            <column>[federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[none:Geschlecht:nk]</column>
+            <column>[federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[none:county:nk]</column>
+            <column>[federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[Action (Landkreis)]</column>
+            <column>[federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[Action (Bundesland,Landkreis)]</column>
           </slices>
           <aggregation value='true' />
         </view>
@@ -4198,6 +4226,7 @@
           <style-rule element='header'>
             <format attr='border-width' data-class='total' value='0' />
             <format attr='border-style' data-class='total' value='none' />
+            <format attr='width' field='[federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[none:Altersgruppe:nk]' value='100' />
           </style-rule>
           <style-rule element='label'>
             <format attr='text-align' field='[federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[none:Altersgruppe:nk]' value='right' />
@@ -4271,13 +4300,12 @@
               </style-rule>
               <style-rule element='datalabel'>
                 <format attr='color-mode' value='match' />
-                <format attr='font-size' value='8' />
                 <format attr='font-weight' value='normal' />
-                <format attr='color' value='#000000' />
+                <format attr='font-size' value='7' />
               </style-rule>
               <style-rule element='mark'>
                 <format attr='mark-labels-cull' value='true' />
-                <format attr='size' value='1.8680663108825684' />
+                <format attr='size' value='1.5492265224456787' />
                 <format attr='mark-labels-show' value='true' />
                 <format attr='mark-transparency' value='155' />
               </style-rule>
@@ -4293,7 +4321,7 @@
           </pane>
         </panes>
         <rows>[federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[none:Altersgruppe:nk]</rows>
-        <cols>([federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[none:Geschlecht:nk] * [federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[usr:Calculation_1068127205803847681:qk])</cols>
+        <cols>(([federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[none:Geschlecht:nk] / [federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[none:Calculation_2100225577756401666:nk]) * [federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[usr:Calculation_1068127205803847681:qk])</cols>
         <tooltip-style tooltip-mode='none' />
       </table>
       <simple-id uuid='{9B32B317-A21A-48B2-BCED-FC735C692427}' />
@@ -4338,9 +4366,19 @@
             </column>
             <column-instance column='[Calculation_1068127205898043397]' derivation='None' name='[none:Calculation_1068127205898043397:nk]' pivot='key' type='nominal' />
             <column-instance column='[Geschlecht]' derivation='None' name='[none:Geschlecht:nk]' pivot='key' type='nominal' />
+            <column-instance column='[county]' derivation='None' name='[none:county:nk]' pivot='key' type='nominal' />
             <column-instance column='[AnzahlFall]' derivation='Sum' name='[sum:AnzahlFall:qk]' pivot='key' type='quantitative' />
             <column-instance column='[Calculation_1068127205803847681]' derivation='User' name='[usr:Calculation_1068127205803847681:qk]' pivot='key' type='quantitative' />
           </datasource-dependencies>
+          <filter class='categorical' column='[federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[Action (Bundesland,Landkreis)]' filter-group='5'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action6]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[BL]' />
+              <groupfilter function='level-members' level='[county]' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[Action (Landkreis)]' filter-group='4'>
+            <groupfilter function='level-members' level='[county]' user:ui-action-filter='[Action5]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
           <filter class='categorical' column='[federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[Tooltip (Bundesland)]'>
             <groupfilter function='level-members' level='[BL]' user:ui-action-filter='[Action - Sheet 17]' user:ui-enumeration='all' user:ui-marker='enumerate' />
           </filter>
@@ -4360,11 +4398,17 @@
             </groupfilter>
           </filter>
           <natural-sort column='[federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[none:Geschlecht:nk]' direction='DESC' />
+          <filter class='categorical' column='[federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[none:county:nk]' filter-group='3'>
+            <groupfilter from='&quot;LK Aichach-Friedberg&quot;' function='range' level='[none:county:nk]' to='&quot;SK Würzburg&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
           <slices>
             <column>[federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[Tooltip (Bundesland,Landkreis)]</column>
             <column>[federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[Tooltip (Bundesland)]</column>
             <column>[federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[Tooltip (Landkreis)]</column>
             <column>[federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[none:Geschlecht:nk]</column>
+            <column>[federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[none:county:nk]</column>
+            <column>[federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[Action (Landkreis)]</column>
+            <column>[federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[Action (Bundesland,Landkreis)]</column>
           </slices>
           <aggregation value='true' />
         </view>
@@ -4379,6 +4423,7 @@
           <style-rule element='header'>
             <format attr='border-width' data-class='total' value='0' />
             <format attr='border-style' data-class='total' value='none' />
+            <format attr='width' field='[federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[none:Calculation_1068127205898043397:nk]' value='100' />
           </style-rule>
           <style-rule element='label'>
             <format attr='display' field='[federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[none:Geschlecht:nk]' value='false' />
@@ -4583,8 +4628,8 @@
             <column-instance column='[Calculation_165296216340402182]' derivation='User' name='[usr:Calculation_165296216340402182:qk]' pivot='key' type='quantitative' />
             <column-instance column='[Calculation_759419524420964353]' derivation='User' name='[usr:Calculation_759419524420964353:nk:2]' pivot='key' type='nominal'>
               <table-calc ordering-field='' ordering-type='Field' />
-              <table-calc field='[federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[FARBE_Grenzwerte (copy)_165296216352751628]' ordering-type='Rows' />
               <table-calc field='[federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[Calculation_165296216337489923]' ordering-field='' ordering-type='Field' />
+              <table-calc field='[federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[FARBE_Grenzwerte (copy)_165296216352751628]' ordering-type='Rows' />
             </column-instance>
             <column-instance column='[FARBE_Ampel (copy)_1293307187279298560]' derivation='User' name='[usr:FARBE_Ampel (copy)_1293307187279298560:nk]' pivot='key' type='nominal' />
             <column-instance column='[Shape__Area (copy)_165296216340021253]' derivation='User' name='[usr:Shape__Area (copy)_165296216340021253:qk]' pivot='key' type='quantitative' />
@@ -6920,10 +6965,11 @@
             </encodings>
             <customized-tooltip show-buttons='false'>
               <formatted-text>
-                <run bold='true'><![CDATA[<Sheet name="DEMOGRAFIE---m/w_Alter_AnzahlFall" maxwidth="400" maxheight="200" filter="<All Fields>">]]></run>
+                <run fontname='Helvetica Neue'>Infektionen nach Geschlecht und Altersklasse</run>
                 <run>Æ&#10;</run>
-                <run bold='true'><![CDATA[<Sheet name="DEMOGRAFIE---m/w_AnzahlFall" maxwidth="400" maxheight="30" filter="<All Fields>">]]></run>
-                <run>Æ&#10;&#10;&#10;</run>
+                <run fontname='Helvetica Neue'><![CDATA[<Sheet name="DEMOGRAFIE---m/w_Alter_AnzahlFall" maxwidth="400" maxheight="150" filter="<All Fields>">]]></run>
+                <run>Æ&#10;</run>
+                <run fontname='Helvetica Neue'><![CDATA[<Sheet name="DEMOGRAFIE---m/w_AnzahlFall" maxwidth="400" maxheight="22" filter="<All Fields>">]]></run>
               </formatted-text>
             </customized-tooltip>
             <style>
@@ -6936,7 +6982,6 @@
         </panes>
         <rows />
         <cols />
-        <tooltip-style tooltip-mode='none' />
       </table>
       <simple-id uuid='{0B5040F0-4D2F-4CFA-BA71-A699B0E688BC}' />
     </worksheet>
@@ -6951,7 +6996,7 @@
         </title>
         <caption>
           <formatted-text>
-            <run fontalignment='1' fontcolor='#333333' fontsize='8'>pro 100&apos;000 Einwohner</run>
+            <run bold='false' fontalignment='1' fontsize='8'>pro 100&apos;000 Einwohner</run>
           </formatted-text>
         </caption>
       </layout-options>
@@ -6962,8 +7007,11 @@
           </datasources>
           <datasource-dependencies datasource='federated.0dhi3kg1drdx8o12vxqsa1f9xmc6'>
             <column caption='Bundesland' datatype='string' name='[BL]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
-            <column-instance column='[cases_per_100k]' derivation='Avg' name='[avg:cases_per_100k:qk]' pivot='key' type='quantitative' />
-            <column caption='Fälle/100.000 EW' datatype='real' name='[cases_per_100k]' role='measure' type='quantitative' />
+            <column caption='SUM([Anzahl Fälle]) / SUM(EWZ) * 100000' datatype='real' name='[Calculation_2100225577748856832]' role='measure' type='quantitative' user:unnamed='NUM---Fälle_100k'>
+              <calculation class='tableau' formula='SUM([cases]) / SUM(EWZ) * 100000' />
+            </column>
+            <column datatype='integer' name='[EWZ]' role='measure' type='quantitative' />
+            <column caption='Anzahl Fälle' datatype='integer' name='[cases]' role='measure' type='quantitative' />
             <column caption='Landkreis' datatype='string' name='[county]' role='dimension' semantic-role='[County].[Name]' type='nominal'>
               <semantic-values semantic-role='[County].[Name]'>
                 <semantic-value key='&quot;LK Altenkirchen&quot;' value='&quot;LK Altenkirchen (Westerwald)&quot;' />
@@ -6981,14 +7029,15 @@
                 <semantic-value key='&quot;SK Berlin Neukölln&quot;' value='&quot;SK Berlin&quot;' />
               </semantic-values>
             </column>
+            <column-instance column='[Calculation_2100225577748856832]' derivation='User' name='[usr:Calculation_2100225577748856832:qk]' pivot='key' type='quantitative' />
           </datasource-dependencies>
-          <filter class='categorical' column='[federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[Action (Bundesland,Landkreis)]'>
+          <filter class='categorical' column='[federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[Action (Bundesland,Landkreis)]' filter-group='5'>
             <groupfilter function='crossjoin' user:ui-action-filter='[Action6]' user:ui-enumeration='all' user:ui-marker='enumerate'>
               <groupfilter function='level-members' level='[BL]' />
               <groupfilter function='level-members' level='[county]' />
             </groupfilter>
           </filter>
-          <filter class='categorical' column='[federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[Action (Landkreis)]'>
+          <filter class='categorical' column='[federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[Action (Landkreis)]' filter-group='4'>
             <groupfilter function='level-members' level='[county]' user:ui-action-filter='[Action5]' user:ui-enumeration='all' user:ui-marker='enumerate' />
           </filter>
           <slices>
@@ -6999,15 +7048,15 @@
         </view>
         <style>
           <style-rule element='cell'>
-            <format attr='font-weight' field='[federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[avg:cases_per_100k:qk]' value='bold' />
-            <format attr='vertical-align' field='[federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[avg:cases_per_100k:qk]' value='bottom' />
-            <format attr='text-align' field='[federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[avg:cases_per_100k:qk]' value='center' />
-            <format attr='font-size' field='[federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[avg:cases_per_100k:qk]' value='28' />
-            <format attr='text-format' field='[federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[avg:cases_per_100k:qk]' value='n#,##0.00;-#,##0.00' />
+            <format attr='text-format' field='[federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[usr:Calculation_2100225577748856832:qk]' value='n#,##0.0;-#,##0.0' />
+            <format attr='text-align' field='[federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[usr:Calculation_2100225577748856832:qk]' value='center' />
+            <format attr='vertical-align' field='[federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[usr:Calculation_2100225577748856832:qk]' value='bottom' />
           </style-rule>
           <style-rule element='worksheet'>
             <format attr='font-family' value='Helvetica' />
-            <format attr='font-size' value='36' />
+            <format attr='font-size' value='28' />
+            <format attr='font-weight' value='bold' />
+            <format attr='color' value='#333333' />
           </style-rule>
         </style>
         <panes>
@@ -7017,12 +7066,16 @@
             </view>
             <mark class='Automatic' />
             <encodings>
-              <text column='[federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[avg:cases_per_100k:qk]' />
+              <text column='[federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[usr:Calculation_2100225577748856832:qk]' />
             </encodings>
             <customized-tooltip show-buttons='false'>
               <formatted-text>
-                <run fontcolor='#787878'>Avg. Fälle/100.000 EW:&#9;</run>
-                <run bold='true'><![CDATA[<[federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[avg:cases_per_100k:qk]>]]></run>
+                <run fontname='Helvetica Neue'>Infektionen nach Geschlecht und Altersklasse</run>
+                <run>Æ&#10;</run>
+                <run fontname='Helvetica Neue'><![CDATA[<Sheet name="DEMOGRAFIE---m/w_Alter_AnzahlFall" maxwidth="400" maxheight="150" filter="<All Fields>">]]></run>
+                <run>Æ&#10;</run>
+                <run fontname='Helvetica Neue'><![CDATA[<Sheet name="DEMOGRAFIE---m/w_AnzahlFall" maxwidth="400" maxheight="30" filter="<All Fields>">]]></run>
+                <run>Æ&#10;&#10;</run>
               </formatted-text>
             </customized-tooltip>
             <style>
@@ -8029,8 +8082,8 @@
             <column-instance column='[Calculation_165296216340402182]' derivation='User' name='[usr:Calculation_165296216340402182:qk]' pivot='key' type='quantitative' />
             <column-instance column='[Calculation_759419524420964353]' derivation='User' name='[usr:Calculation_759419524420964353:nk:4]' pivot='key' type='nominal'>
               <table-calc ordering-type='Columns' />
-              <table-calc field='[federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[FARBE_Grenzwerte (copy)_165296216352751628]' ordering-type='Rows' />
               <table-calc field='[federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[Calculation_165296216337489923]' ordering-type='Rows' />
+              <table-calc field='[federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[FARBE_Grenzwerte (copy)_165296216352751628]' ordering-type='Rows' />
             </column-instance>
             <column-instance column='[FARBE_Ampel (copy)_1293307187279298560]' derivation='User' name='[usr:FARBE_Ampel (copy)_1293307187279298560:nk]' pivot='key' type='nominal' />
             <column-instance column='[Shape__Area (copy)_165296216340021253]' derivation='User' name='[usr:Shape__Area (copy)_165296216340021253:qk]' pivot='key' type='quantitative' />
@@ -8917,8 +8970,8 @@
             </groupfilter>
           </filter>
           <shelf-sorts>
-            <shelf-sort-v2 dimension-to-sort='[federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[none:county:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[avg:cases7_per_100k:qk]' shelf='rows' />
             <shelf-sort-v2 dimension-to-sort='[federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[none:BL:nk]' direction='DESC' measure-to-sort-by='[federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[avg:cases7_per_100k:qk]' shelf='rows' />
+            <shelf-sort-v2 dimension-to-sort='[federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[none:county:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[avg:cases7_per_100k:qk]' shelf='rows' />
           </shelf-sorts>
           <slices>
             <column>[federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[:Measure Names]</column>
@@ -9252,6 +9305,7 @@
           <datasource-dependencies datasource='federated.0dhi3kg1drdx8o12vxqsa1f9xmc6'>
             <column caption='Anteil COVID Betten in %' datatype='real' name='[Anteil_COVID_betten]' role='measure' type='quantitative' />
             <column caption='Anteil COVID aktuell beatmet in %' datatype='integer' name='[Anteil_covid_beatmet]' role='measure' type='quantitative' />
+            <column caption='Bundesland' datatype='string' name='[BL]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
             <column caption='Betten CoViD-19 Fälle beatmet Anteil' datatype='real' name='[Betten CoViD-19 Fälle Anteil (copy)_1379720005555257345]' role='measure' type='quantitative'>
               <calculation class='tableau' formula='SUM([faelle_covid_aktuell_beatmet]) / SUM([faelle_covid_aktuell])' />
             </column>
@@ -9260,6 +9314,8 @@
             </column>
             <column datatype='string' name='[Datenstand]' role='dimension' type='nominal' />
             <column datatype='datetime' name='[Meldedatum]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[RS]' role='dimension' type='nominal' />
+            <column datatype='string' name='[RS_0]' role='dimension' type='nominal' />
             <column-instance column='[Meldedatum]' derivation='Attribute' name='[attr:Meldedatum:ok]' pivot='key' type='ordinal' />
             <column-instance column='[Anteil_COVID_betten]' derivation='Avg' name='[avg:Anteil_COVID_betten:qk]' pivot='key' type='quantitative' />
             <column-instance column='[Anteil_covid_beatmet]' derivation='Avg' name='[avg:Anteil_covid_beatmet:qk]' pivot='key' type='quantitative' />
@@ -9291,6 +9347,8 @@
             <column caption='Fälle COVID aktuell beatmet' datatype='real' name='[faelle_covid_aktuell_beatmet]' role='measure' type='quantitative' />
             <column caption='Aktualisierung' datatype='string' name='[last_update]' role='dimension' type='nominal' />
             <column-instance column='[Datenstand]' derivation='None' name='[none:Datenstand:nk]' pivot='key' type='nominal' />
+            <column-instance column='[RS]' derivation='None' name='[none:RS:nk]' pivot='key' type='nominal' />
+            <column-instance column='[RS_0]' derivation='None' name='[none:RS_0:nk]' pivot='key' type='nominal' />
             <column-instance column='[county]' derivation='None' name='[none:county:nk]' pivot='key' type='nominal' />
             <column-instance column='[daten_stand]' derivation='None' name='[none:daten_stand:nk]' pivot='key' type='nominal' />
             <column-instance column='[last_update]' derivation='None' name='[none:last_update:nk]' pivot='key' type='nominal' />
@@ -9330,11 +9388,18 @@
               <bucket>&quot;[federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[avg:Anteil_covid_beatmet:qk]&quot;</bucket>
             </dictionary>
           </manual-sort>
+          <filter class='categorical' column='[federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[Action (Bundesland,Landkreis)]' filter-group='5'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action6]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[BL]' />
+              <groupfilter function='level-members' level='[county]' />
+            </groupfilter>
+          </filter>
           <shelf-sorts>
             <shelf-sort-v2 dimension-to-sort='[federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[none:county:nk]' direction='DESC' measure-to-sort-by='[federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[avg:cases7_per_100k:qk]' shelf='rows' />
           </shelf-sorts>
           <slices>
             <column>[federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[:Measure Names]</column>
+            <column>[federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[Action (Bundesland,Landkreis)]</column>
           </slices>
           <aggregation value='true' />
         </view>
@@ -9362,7 +9427,7 @@
             </style>
           </pane>
         </panes>
-        <rows total='true'>([federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[none:county:nk] / ([federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[none:last_update:nk] / ([federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[none:daten_stand:nk] / ([federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[none:Datenstand:nk] / [federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[attr:Meldedatum:ok]))))</rows>
+        <rows total='true'>([federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[none:county:nk] / ([federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[none:last_update:nk] / ([federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[none:daten_stand:nk] / ([federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[none:Datenstand:nk] / ([federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[attr:Meldedatum:ok] / ([federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[none:RS:nk] / [federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[none:RS_0:nk]))))))</rows>
         <cols>[federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[:Measure Names]</cols>
       </table>
       <simple-id uuid='{F0567F1D-1E6F-44C8-867E-AD81FD0D498A}' />
@@ -9844,8 +9909,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='2650' minheight='2650' sizing-mode='vscroll' />
           <zones>
-            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='235' w='100000' x='0' y='0'>
-              <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='98358' id='234' param='vert' w='99000' x='500' y='821'>
+            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='239' w='100000' x='0' y='0'>
+              <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='98358' id='238' param='vert' w='99000' x='500' y='821'>
                 <zone _.fcp.SetMembershipControl.false...type='bitmap' _.fcp.SetMembershipControl.true...type-v2='bitmap' fixed-size='50' h='5128' id='167' is-fixed='true' is-scaled='1' param='/Users/thomasmassie/Pictures/Portrait_round_01.png' w='3125' x='96875' y='0'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -9962,7 +10027,7 @@
                   </zone-style>
                 </zone>
                 <zone fixed-size='106' h='13333' id='52' is-fixed='true' name='NUM---Fälle' show-caption='true' w='13541' x='56250' y='28718'>
-                  <layout-cache cell-count-w='1' type-h='fixed' type-w='cell' />
+                  <layout-cache type-h='fixed' type-w='cell' />
                   <zone-style>
                     <format attr='border-color' value='#e6e6e6' />
                     <format attr='border-style' value='solid' />
@@ -9972,7 +10037,7 @@
                   </zone-style>
                 </zone>
                 <zone fixed-size='106' h='13333' id='39' is-fixed='true' name='NUM---Fälle_100k' show-caption='true' w='13541' x='69791' y='28718'>
-                  <layout-cache cell-count-w='1' type-h='fixed' type-w='cell' />
+                  <layout-cache type-h='fixed' type-w='cell' />
                   <zone-style>
                     <format attr='border-color' value='#e6e6e6' />
                     <format attr='border-style' value='solid' />
@@ -9982,7 +10047,7 @@
                   </zone-style>
                 </zone>
                 <zone fixed-size='108' h='13333' id='38' is-fixed='true' name='NUM---neueFälle_100k_7Tage' show-caption='true' w='13541' x='83332' y='28718'>
-                  <layout-cache cell-count-w='1' type-h='cell' type-w='cell' />
+                  <layout-cache type-h='cell' type-w='cell' />
                   <zone-style>
                     <format attr='border-color' value='#e6e6e6' />
                     <format attr='border-style' value='solid' />
@@ -10161,8 +10226,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='1250' minheight='1250' sizing-mode='vscroll' />
           <zones>
-            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='192' w='100000' x='0' y='0'>
-              <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='98358' id='191' param='vert' w='99000' x='500' y='821'>
+            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='196' w='100000' x='0' y='0'>
+              <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='84000' id='195' param='vert' w='84000' x='8000' y='8000'>
                 <zone _.fcp.SetMembershipControl.false...type='paramctrl' _.fcp.SetMembershipControl.true...type-v2='paramctrl' h='4513' id='60' mode='list' param='[Parameters].[Parameter 4]' show-title='false' w='10000' x='18438' y='6359'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -10520,8 +10585,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='2650' minheight='2650' sizing-mode='vscroll' />
           <zones>
-            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='228' w='100000' x='0' y='0'>
-              <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='98358' id='227' param='vert' w='99000' x='500' y='821'>
+            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='232' w='100000' x='0' y='0'>
+              <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='84000' id='231' param='vert' w='84000' x='8000' y='8000'>
                 <zone _.fcp.SetMembershipControl.false...type='bitmap' _.fcp.SetMembershipControl.true...type-v2='bitmap' fixed-size='50' h='5128' id='167' is-fixed='true' is-scaled='1' param='/Users/thomasmassie/Pictures/Portrait_round_01.png' w='3125' x='96875' y='0'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -10794,7 +10859,7 @@
     </dashboard>
   </dashboards>
   <windows source-height='30'>
-    <window class='dashboard' maximized='true' name='Dashboard' tab-color='#f66273'>
+    <window class='dashboard' name='Dashboard' tab-color='#f66273'>
       <viewpoints>
         <viewpoint name='KARTE---7TageFälle'>
           <zoom type='entire-view' />
@@ -10851,7 +10916,7 @@
           <zoom type='entire-view' />
         </viewpoint>
       </viewpoints>
-      <active id='-1' />
+      <active id='52' />
       <device-preview selected='Desktop' />
       <simple-id uuid='{38CD5035-3685-4AA7-993E-036B03FA1E0E}' />
     </window>
@@ -11115,7 +11180,7 @@
       </cards>
       <simple-id uuid='{95DFD061-995A-40B8-BCEA-2D4D947F6D1A}' />
     </window>
-    <window class='worksheet' name='DEMOGRAFIE---m/w_Alter_AnzahlFall' tab-color='#72bcbb'>
+    <window class='worksheet' maximized='true' name='DEMOGRAFIE---m/w_Alter_AnzahlFall' tab-color='#72bcbb'>
       <cards>
         <edge name='left'>
           <strip size='234'>
