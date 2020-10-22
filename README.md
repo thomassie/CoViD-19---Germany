@@ -37,7 +37,7 @@ Der Prototyp befindet sich auf Tableau Public und kann [hier](https://public.tab
 Aktuell sieht dieser so aus:
 ![Prototyp](https://github.com/thomassie/CoViD-19---Germany/blob/main/04---Screenshots/Bildschirmfoto%202020-10-21%20um%2000.05.37.png)
 
-### Offene fragen
+### OFFENE FRAGEN
 
 **Grundsätzliche Fragen**:
 
@@ -68,7 +68,7 @@ Aktuell sieht dieser so aus:
 - **Akordeon-Effekte**: Kann Tableau Akkordeon? Ich hab mal eine typo3 extension mit einer Akordeonfunktion in Betrieb genommen. Hier konnte man sich thematische Absätze über ein plus- bzw. minusicon ein- bzw. ausblenden.
   > *TMM*: Nee. Aber man kann bestimmt Inhalte natürlich ein- bzw- ausblenden (Filter, Parameter). Das geht auch in Tabellen. Aber halt nicht mit einem Akkordeon-Effekt.
  
-### Aufgaben
+### AUFGABEN
  
 - [ ] Stadtkreis und Landkreis Landshut zusammenlegen.
 - [ ] Zeitreihen schnellstmöglich hinzufügen.
@@ -77,6 +77,6 @@ Aktuell sieht dieser so aus:
   > *TMM*: Höherstufen passiert sofort? Wäre ja logisch. Allerdings werden die Maßnahmen nicht automatisiert angeordnet, oder (s.o.)?
 - [ ] Rechtschreibung und Termini überprüfen/korrigieren
 
-### Time tracking
+### ZEITERFASSUNG
 
-- Thomas Massie: 26 Stunden (Stand 21.10.2020, 21 Uhr)
+- Thomas Massie: 28 Stunden (Stand 22.10.2020, 11:00 Uhr)
