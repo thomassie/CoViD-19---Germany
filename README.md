@@ -81,4 +81,4 @@ Aktuell sieht dieser so aus:
 
 ### ZEITERFASSUNG
 
-- Thomas Massie: 30 Stunden (Stand 22.10.2020, 17:30 Uhr)
+- Thomas Massie: 32.5 Stunden (Stand 23.10.2020, 20:30 Uhr)
