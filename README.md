@@ -79,6 +79,7 @@ Aktuell sieht dieser so aus:
 - [ ] Rechtschreibung und Termini überprüfen/korrigieren.
 - [x] Demografische Verteilungen der Fälle filtern (über *Dashboard Actions* auf *Worksheet* im *Viz in Tooltip*).
 - [x] Vierstufige Bayern-Ampel hinzufügen (dunkelrot entspricht 7-Tage-Inzidenz von über 100 Fällen pro 100'000 Einwohner).
+- [ ] Alle Daten-Quellen angeben!
 
 ### ZEITERFASSUNG
 
