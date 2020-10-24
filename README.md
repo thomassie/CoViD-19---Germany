@@ -76,8 +76,9 @@ Aktuell sieht dieser so aus:
 - [x] Krankebetten-Daten anpassen, d.h., eindeutige Benennung.
 - [ ] Ampelfunktion anpassen: Eine Ampel besteht mind. 1 Woche bevor sie wieder heruntergesetzt werden kann. 
   > *TMM*: Höherstufen passiert sofort? Wäre ja logisch. Allerdings werden die Maßnahmen nicht automatisiert angeordnet, oder (s.o.)?
-- [ ] Rechtschreibung und Termini überprüfen/korrigieren
+- [ ] Rechtschreibung und Termini überprüfen/korrigieren.
 - [x] Demografische Verteilungen der Fälle filtern (über *Dashboard Actions* auf *Worksheet* im *Viz in Tooltip*).
+- [x] Vierstufige Bayern-Ampel hinzufügen (dunkelrot entspricht 7-Tage-Inzidenz von über 100 Fällen pro 100'000 Einwohner).
 
 ### ZEITERFASSUNG
 
