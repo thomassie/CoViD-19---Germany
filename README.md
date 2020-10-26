@@ -80,7 +80,8 @@ Aktuell sieht dieser so aus:
 - [x] Demografische Verteilungen der Fälle filtern (über *Dashboard Actions* auf *Worksheet* im *Viz in Tooltip*).
 - [x] Vierstufige Bayern-Ampel hinzufügen (dunkelrot entspricht 7-Tage-Inzidenz von über 100 Fällen pro 100'000 Einwohner).
 - [ ] Alle Daten-Quellen angeben!
+- [ ] Korrekte Fallzahlen angeben. RKI behandelt nicht gemeldete Fälle wie 'Null neue Fälle'. Ansonsten zeigt man anstatt der 7-Tage-Inzidenz oft 7-lag_delta-Tage-Inzidenzen...
 
 ### ZEITERFASSUNG
 
-- Thomas Massie: 32.5 Stunden (Stand 23.10.2020, 20:30 Uhr)
+- Thomas Massie: 35 Stunden (Stand 26.10.2020, 15:00  Uhr)
